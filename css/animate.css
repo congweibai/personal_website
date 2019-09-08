@@ -1,0 +1,122 @@
+.screen-1_heading{
+	transition: all 1s;
+}
+
+.screen-1_heading_animate_init{
+	opacity: 0;
+	transform: translate(0,100%);
+}
+
+
+.screen-1_heading_animate_done{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.screen-1_heading_text_animate_init{
+    opacity: 0;
+	transform: translate(0,100%);
+}
+.screen-2_heading_animate_init{
+	opacity: 0;
+	transform: translate(0,-100%);
+}
+.screen-2_heading,.screen-2_heading_text,.screen-2_person,.screen-2_rocket{
+	transition: all 1s;
+}
+
+.screen-2_heading_animate_init{
+	opacity: 0;
+	transform: translate(0,-100%);
+}
+
+.screen-2_heading_text_animate_init{
+	opacity: 0;
+	transform: translate(-100%,0);
+}
+
+.screen-2_person_animate_init{
+	opacity: 0;
+	transform: translate(0,100%);
+}
+
+.screen-2_rocket_animate_init{
+	opacity: 0;
+	transform: translate(300%,0)
+}
+
+.screen-2_heading_animate_done,.screen-2_heading_text_animate_done,.screen-2_person_animate_done,.screen-2_rocket_animate_done{
+	opacity: 1;
+	transform: translate(0,0);
+}
+
+.screen-3_heading,.screen-3_img,.screen-3_list,.screen-3_skill_list{
+	transition: all 1s;	
+}
+
+.screen-3_heading_animate_init,.screen-3_list_animate_init,.screen-3_skill_list_animate_init{
+	opacity: 0;
+	transform: translate(100%,0);	
+}
+
+.screen-3_img_animate_init{
+	opacity: 0;
+	transform: translate(-100%,0)
+}
+
+.screen-3_img_animate_done,.screen-3_heading_animate_done,.screen-3_list_animate_done,.screen-3_skill_list_animate_done{
+	opacity: 1;
+	transform: translate(0,0);	
+}
+.screen-4_project_list,.screen-4_project_list_text{
+	transition: all 1s;	
+}
+
+.screen-4_project_list_animate_init,.screen-4_project_list_text_animate_init{
+	opacity: 0;
+	transform: translate(0,100%)
+}
+
+.screen-4_project_list_animate_done,.screen-4_project_list_text_animate_done{
+	opacity: 1;
+	transform: translate(0,0)
+}
+.header{
+	transition: all 1s;
+}
+.header_status_black{
+	background: rgba(0,0,0,.5);
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    z-index: 3;
+
+}
+.header_status_black .header_nav-item,
+.header_status_black .header_logo{
+	color: #fff;
+}
+.header_status_black .header_nav-item_status_active{
+	color: red;
+}
+.header_status_black .header_nav-item:hover{
+	transition: all 1s;
+	color: red;
+}
+.footer_ul_list ul a{
+	transition: all 1s;
+}
+.outline{
+	transform: translate(100%,0);
+	transition: all 1s;
+}
+
+.outline_status_in{
+	transform: translate(0,0);
+	
+}
+
+.outline_item{
+	transition: all 1s;
+}
